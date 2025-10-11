@@ -1,0 +1,247 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="Synesthesia.Media/logo.png">
+    <link rel="stylesheet" href="Synesthesia.css">
+    <link rel="stylesheet" href="Synesthesia.Styles/Nav.css">
+    <link rel="stylesheet" href="Synesthesia.Styles/Home.css">
+    <link rel="stylesheet" href="Synesthesia.Styles/Synesthesia.css">
+    <link rel="stylesheet" href="Synesthesia.Styles/About.css">
+    <link rel="stylesheet" href="Synesthesia.Styles/Footer.css">
+    <title>Synesthesia</title>
+</head>
+<body>
+    <nav class="nav-section">
+        <div class="nav-logo-container">
+            <img class="nav-logo" src="Synesthesia.Media/logo.png">
+        </div>
+        <div class="nav-links-container">
+            <span class="nav-link">HOME</span>
+            <span class="nav-link">SYNESTHESIA</span>
+            <span class="nav-link">ABOUT</span>
+        </div>
+        <button class="sign-in">Sign in</button>
+
+        <div class="settings">
+            <div class="settings-line"></div>
+            <div class="settings-line"></div>
+            <div class="settings-line"></div>
+        </div>
+
+        <div class="responsive-nav">
+            <div class="responsive-nav-logo-container">
+                <img class="responsive-nav-logo" src="Synesthesia.Media/logo.png">
+                <i class="closing-icon fa fa-times"></i>
+            </div>
+
+            <div class="responsive-nav-links-container">
+                <span class="responsive-nav-link">HOME</span>
+                <span class="responsive-nav-link">SYNESTHESIA</span>
+                <span class="responsive-nav-link">ABOUT</span>
+            </div>
+
+            <button class="responsive-sign-in">Sign in</button>
+        </div>
+    </nav>
+    
+    <section class="home-section">
+        <div class="home-header">
+            <div class="header-text">
+                <span class="header-span">
+                    Discover the Beauty of Classical<br>Art and Music<br>with Synesthesia
+                </span>
+                <div class="home-buttons-container">
+                    <button class="home-buttons upload">Upload Painting or Music</button>
+                    <button class="home-buttons github">Github Repo</button>
+                    <button class="home-buttons demo">See Demo</button>
+                </div>
+            </div>            
+            <div class="header-picture-container">
+                <img class="header-picture" src="Synesthesia.Media/Home.Media/playing.png">
+            </div>
+        </div>
+
+        <div class="home-text-content">
+            <span class="home-text-title">AI-Powered Artistic Recommendations</span>
+            <span class="home-text-description">
+                Synesthesia understands both visual and musical art. Upload a classical painting or an audio clip, 
+                and let AI recommend similar works that share the same era, mood, and emotional tone. 
+                Explore classical creativity through intelligent similarity.
+            </span>
+            <div class="home-images-container">
+                <div class="home-image-container">
+                    <img class="home-image" src="Synesthesia.Media/Home.Media/painting.png">
+                    <span class="home-image-title">Painting Similarity</span>
+                    <span class="home-image-description">Upload a classical painting and find other artworks that match its style, color, and emotion.</span>
+                </div>
+                <div class="home-image-container">
+                    <img class="home-image" src="Synesthesia.Media/Home.Media/similarity.png">
+                    <span class="home-image-title">AI-Based Similarity</span>
+                    <span class="home-image-description">Synesthesia uses deep learning to compare and recommend visually or sonically related works.</span>
+                </div>
+                <div class="home-image-container">
+                    <img class="home-image" src="Synesthesia.Media/Home.Media/music.png">
+                    <span class="home-image-title">Music Similarity</span>
+                    <span class="home-image-description">Provide a classical piece to discover compositions that sound similar in rhythm, mood, and harmony.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="synesthesia-section">
+        <div class="benefit-title-container">
+            <span class="synesthesia-title">Synesthesia</span>
+            <img class="benefits-image" src="Synesthesia.Media/logo.png">
+        </div>
+        <span class="synesthesia-description">
+            Synesthesia is an intelligent recommendation system for classical paintings and classical music.
+            It analyzes images or audio clips to suggest similar works within the same domain — 
+            allowing you to explore art and sound through patterns of mood, color, and tone.
+        </span>
+        <div class="input-container">
+            <div class="drop-area">
+                <span class="upload-span">UPLOAD PAINTING OR MUSIC</span>
+                <input class="file-input" type="file" accept="image/png, image/jpg, audio/mp3, audio/wav">
+            </div>
+        </div>
+        <audio class="preview-audio" controls></audio>
+        <img class="preview-image"></img>
+        <button class="submit">Find Similar</button>
+        <div class="result-container"></div>
+    </section>    
+
+    <section class="about-section">
+        <div class="benefits">
+            <div class="benefit-title-container">
+                <span class="benefits-title">Benefits</span>
+                <img class="benefits-image" src="Synesthesia.Media/About.Media/benefits.png">
+            </div>
+            <div class="benefits-container">
+                <div class="benefits-row">
+                    <div class="benefit-container">
+                        <span class="benefit-title">Artistic Understanding</span>
+                        <span class="benefit-description">
+                            Synesthesia analyzes both paintings and classical music to uncover aesthetic similarities.
+                        </span>
+                    </div>
+                    <div class="benefit-container">
+                        <span class="benefit-title">Cultural Discovery</span>
+                        <span class="benefit-description">
+                            Dive into art and music collections to find connections across eras and emotional expression.
+                        </span>
+                    </div>
+                </div>
+                <div class="benefits-row">
+                    <div class="benefit-container">
+                        <span class="benefit-title">Intuitive Exploration</span>
+                        <span class="benefit-description">
+                            Upload an image or a music clip and get instant recommendations of similar works.
+                        </span>
+                    </div>
+                    <div class="benefit-container">
+                        <span class="benefit-title">Educational Value</span>
+                        <span class="benefit-description">
+                            Ideal for students and enthusiasts exploring classical art and music relationships.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>        
+
+        <div class="usecases">
+            <div class="usecases-title-container">
+                <span class="usecases-title">Use Cases</span>
+                <img class="usecases-image" src="Synesthesia.Media/About.Media/usecase.png">
+            </div>
+            <span class="usecases-description">
+                Synesthesia helps users explore connections within classical domains — 
+                find similar paintings or discover related musical compositions.
+            </span>
+            <div class="usecase-main-row">
+                <div class="usecase-sub-row">
+                    <div class="usecase-icon-container">
+                        <img class="usecase-icon" src="Synesthesia.Media/About.Media/discovery.png">
+                        <span class="usecase-icon-title">Painting Discovery</span>
+                        <span class="usecase-icon-description">Find classical artworks that resemble your uploaded painting in style or emotion.</span>
+                    </div>
+                    <div class="usecase-icon-container">
+                        <img class="usecase-icon" src="Synesthesia.Media/About.Media/exploration.png">
+                        <span class="usecase-icon-title">Music Exploration</span>
+                        <span class="usecase-icon-description">Discover classical pieces that sound similar to your uploaded track.</span>
+                    </div>
+                </div>
+                <div class="usecase-sub-row">
+                    <div class="usecase-icon-container">
+                        <img class="usecase-icon" src="Synesthesia.Media/About.Media/education.png">
+                        <span class="usecase-icon-title">Education</span>
+                        <span class="usecase-icon-description">Learn about the evolution of styles and moods in art and music through intelligent similarity.</span>
+                    </div>
+                    <div class="usecase-icon-container">
+                        <img class="usecase-icon" src="Synesthesia.Media/About.Media/research.png">
+                        <span class="usecase-icon-title">Research</span>
+                        <span class="usecase-icon-description">A tool for studying artistic and musical relationships based on deep-learning representations.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div class="footer-head">
+            <div class="lets-talk-container">
+                <span class="lets-talk-title">Let’s Connect</span>
+                <span class="lets-talk-sub-title">Share your thoughts, feedback,<br>or collaborations about Synesthesia.</span>
+                <button class="lets-talk-contact-btn">Contact</button>
+            </div>
+            <div class="quick-links-container">
+                <span class="quick-links-title">Quick Links</span>
+                <div class="quick-links-sub-container">
+                    <span class="quick-link">How It Works</span>
+                    <span class="quick-link">Dataset Sources</span>
+                    <span class="quick-link">Research Goals</span>
+                    <span class="quick-link">Contact Us</span>
+                </div>
+                <div class="footer-icons-container">
+                    <i class="footer-icon fab fa-facebook"></i>
+                    <i class="footer-icon fab fa-instagram"></i>
+                    <i class="footer-icon fab fa-linkedin"></i>
+                    <i class="footer-icon fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-body">
+            <div class="fssm-container">
+                <img class="fssm-logo" src="Synesthesia.Media/fssm-logo-no-bg.png" alt="university-logo">
+                <span class="fssm-text">
+                    This project was supervised by Professor <span class="professor">Yassine Afoudi</span><br>
+                    at the Faculty of Science Semlalia.
+                </span>
+            </div>
+            <div class="future-info">
+                <span class="future-info-title">Exploring the Intersection of Art and AI</span>
+                <div class="info-container">
+                    <span class="footer-body-info">Avenue Prince Moulay Abdellah, B.P. 511, Marrakesh, Morocco</span>
+                    <span class="footer-body-info">https://www.linkedin.com/in/yassine-bazgour-178b73305/</span>
+                    <span class="footer-body-info">https://www.linkedin.com/in/zahra-abouhane-27b8b218a/</span>
+                    <span class="footer-body-info">yassine.bazgour@gmail.com</span>
+                    <span class="footer-body-info">abouhanezahra@gmail.com</span>
+                    <span class="footer-body-info">synesthesia.project@gmail.com</span>
+                    <span class="footer-body-info">+212 638 659 880</span>
+                    <span class="footer-body-info">+212 700 485 361</span>
+                </div>
+                <button class="footer-body-support-btn">Support Us</button>
+                <a class="story-set" href="https://storyset.com/people" target="_blank" rel="noopener noreferrer">People illustrations by Storyset</a>
+                <a class="story-set" href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">Icon design by Flaticon</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="Synesthesia.Scripts/Nav.js"></script>
+    <script src="Synesthesia.Scripts/Footer.js"></script>
+    <script src="Synesthesia.Scripts/Home.js"></script>
+    <script src="Synesthesia.Scripts/About.js"></script>
+    <script src="Synesthesia.js"></script>
+</body>
