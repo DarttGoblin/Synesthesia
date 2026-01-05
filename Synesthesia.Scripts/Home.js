@@ -11,6 +11,5 @@ github.onclick = function() {
 }
 
 demo.onclick = function() {
-    alert('Demo will be available soon...');
-    // window.open('', '_blank');
+    window.open('https://drive.google.com/file/d/1k0vfswVvqJll3GTuzD5fc0LGrnXjmLoj/view?usp=sharing', '_blank');
 }
