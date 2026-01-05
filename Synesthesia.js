@@ -67,7 +67,7 @@ submit.onclick = async function() {
 
     } catch (error) {
         console.error('Network error:', error);
-        showError('Failed to connect to server. Make sure Flask is running on port 5000.');
+        showError('Failed to connect to server. Make sure you have cloned backend repository or perhaps you wanna watch our demo instead?');
     } finally {
         // Reset button
         submit.disabled = false;
