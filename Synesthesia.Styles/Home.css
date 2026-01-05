@@ -38,7 +38,7 @@
 
 .home-buttons-container {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     gap: 10px;
 }
@@ -63,13 +63,13 @@
     border: 2px solid var(--primary-hover);
 }
 
-.github, .demo {
+.github, .report, .demo {
     background: none;
     color: var(--primary-color);
     transition: color var(--primary-transition), background-color var(--primary-transition), border var(--primary-transition);
 }
 
-.github:hover, .demo:hover {
+.github:hover, .report:hover .demo:hover {
     color: white;
 }
 
@@ -192,6 +192,10 @@
     .home-text-description {
         width: 80%;
     }
+
+    .home-buttons-container {
+        justify-content: center;
+    }
 }
 @media only screen and (max-width: 700px) {
     .header-circle {
@@ -229,7 +233,7 @@
 
 @media only screen and (max-width: 500px) {
     .home-header {
-        height: 900px;
+        height: 1000px;
     }
 
     .header-span {
