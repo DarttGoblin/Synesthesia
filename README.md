@@ -1,5 +1,14 @@
 🎨 Front-End Interface – Media Preview & Upload
 
+🚨 HOW TO RUN INFERENCE 🚨
+
+1. Clone Synesthesia_server interface repository (this repository)
+2. Clone EchoMind backend server repository through this link: https://github.com/DarttGoblin/Synesthesia_server
+3. from Kaggle through this link: https://www.kaggle.com/models/yassinebazgour/Synesthesia
+4. Install the dependencies using the following command: pip install flask flask-cors torch torchaudio soundfile transformers einops werkzeug tqdm descript-audio-codec
+5. Run app.py
+6. Test the chosen model on you audio
+
 Overview
 
 This front-end interface allows users to upload and preview image or audio files before submitting them to a backend API. It automatically detects the file type and displays the appropriate preview (image or audio). After confirming, users can submit the file along with additional data to a Flask server endpoint for processing.
